@@ -31,6 +31,10 @@
             android:textStyle="bold" />
 
     </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/gray"
+        android:layout_height="1dp"/>
 
     <LinearLayout
         android:id="@+id/mainLinear"
@@ -46,7 +50,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/edt_bg"
+            android:gravity="start"
             android:hint="Title"
+            android:textColorHint="@color/dark_gray"
+            android:maxHeight="100dp"
             android:padding="10dp"
             android:textColor="@color/black" />
 
@@ -58,7 +65,9 @@
             android:background="@drawable/edt_bg"
             android:gravity="start"
             android:hint="Description"
+            android:textColorHint="@color/dark_gray"
             android:minHeight="200dp"
+            android:maxHeight="250dp"
             android:padding="10dp"
             android:textColor="@color/black" />
 
@@ -74,7 +83,7 @@
             android:layout_gravity="bottom"
             android:layout_margin="10dp"
             android:backgroundTint="@color/button_color"
-            android:text="Add Note"
+            android:text="Save"
             android:textColor="@color/white"
             android:textSize="17sp"
             android:textStyle="bold"

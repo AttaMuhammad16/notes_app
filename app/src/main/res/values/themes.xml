@@ -5,7 +5,20 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
 
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@android:color/white</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+
+
+
     </style>
 
     <style name="Theme.NotesApp" parent="Base.Theme.NotesApp" />
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/button_color</item>
+    </style>
+
+
 </resources>

@@ -23,6 +23,7 @@
             android:layout_weight="1"
             android:ellipsize="end"
             android:singleLine="true"
+            android:textColor="@color/black"
             android:text="Title"
             android:textSize="20sp"
             android:textStyle="bold" />

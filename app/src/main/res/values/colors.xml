@@ -4,4 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="edt_bg_color">#f0f2f5</color>
     <color name="button_color">#0d80f2</color>
+    <color name="gray">#C8C8C8</color>
+    <color name="dark_gray">#7C7B7B</color>
 </resources>

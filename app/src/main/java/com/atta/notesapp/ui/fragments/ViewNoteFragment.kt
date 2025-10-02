@@ -40,7 +40,6 @@ class ViewNoteFragment : Fragment() {
         return binding.root
     }
 
-    @SuppressLint("UnsafeRepeatOnLifecycleDetector")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
